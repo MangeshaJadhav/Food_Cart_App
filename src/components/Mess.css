@@ -1,0 +1,17 @@
+.btn{
+    background-color: red;
+    color: white;
+}
+h1{
+    font-size: 1rem;
+}
+select{
+    /* box-shadow: none; */
+    border-color: black;
+    
+}
+.star{
+    background-color: rgb(18, 187, 6);
+    color: white;
+    
+}

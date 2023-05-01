@@ -1,0 +1,10 @@
+.navbarColor{
+    background-color: blue;
+}
+.logout{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin:5px
+}
