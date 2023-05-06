@@ -1,9 +1,9 @@
 const messes = [
   {
-    
+    id: 1,
     name: "Sadhguru Mess",
     varients: ["veg", "nonveg", "both"],
-    star:4.1,
+    star: 4.1,
     prices: [
       {
         veg: 1500,
@@ -13,14 +13,14 @@ const messes = [
     ],
     category: "nonveg-veg",
     // img: "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
-    img:"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/t/f/p104821-16487263886245917424433.jpg?tr=tr:n-xlarge",
+    img: "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/t/f/p104821-16487263886245917424433.jpg?tr=tr:n-xlarge",
     discription: "Best Mess 4 Chapati,Rice,Dal,Sweets,Curry,and Many More",
   },
   {
-    
+    id: 2,
     name: "Wagholi Shahi",
     varients: ["veg", "nonveg", "both"],
-    star:4.4,
+    star: 4.4,
     prices: [
       {
         veg: 1500,
@@ -29,13 +29,14 @@ const messes = [
       },
     ],
     category: "nonveg-veg",
-    img:"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/d/p/p8020-1651153635626a9ae3bb7eb.jpg?tr=tr:n-xlarge",
+    img: "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/d/p/p8020-1651153635626a9ae3bb7eb.jpg?tr=tr:n-xlarge",
     discription: "Best Mess 4 Chapati,Rice,Dal,Sweets,Curry,and Many More",
   },
   {
+    id: 3,
     name: "Manapa Annapurna",
     varients: ["veg", "nonveg", "both"],
-    star:4,
+    star: 4,
     prices: [
       {
         veg: 1500,
@@ -44,13 +45,14 @@ const messes = [
       },
     ],
     category: "nonveg-veg",
-    img:"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/j/x/p49505-15464248895c2c92391344e.jpg?tr=tr:n-xlarge",
+    img: "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/4/j/x/p49505-15464248895c2c92391344e.jpg?tr=tr:n-xlarge",
     discription: "Best Mess 4 Chapati,Rice,Dal,Sweets,Curry,and Many More",
   },
   {
+    id: 4,
     name: "Wagholi Mess",
     varients: ["veg", "nonveg", "both"],
-    star:4.3,
+    star: 4.3,
     prices: [
       {
         veg: 1500,
@@ -59,13 +61,14 @@ const messes = [
       },
     ],
     category: "nonveg-veg",
-    img:"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/l/p8020-1651153669626a9b05d83c9.jpg?tr=tr:n-xlarge",
+    img: "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/8/w/l/p8020-1651153669626a9b05d83c9.jpg?tr=tr:n-xlarge",
     discription: "Best Mess 4 Chapati,Rice,Dal,Sweets,Curry,and Many More",
   },
   {
+    id: 5,
     name: "Hadapsar Punjabi",
     varients: ["veg", "nonveg", "both"],
-    star:4.1,
+    star: 4.1,
     prices: [
       {
         veg: 1500,
@@ -78,9 +81,10 @@ const messes = [
     discription: "Best Mess 4 Chapati,Rice,Dal,Sweets,Curry,and Many More",
   },
   {
+    id: 6,
     name: "Wagholi Darbar",
     varients: ["veg", "nonveg", "both"],
-    star:4.2,
+    star: 4.2,
     prices: [
       {
         veg: 1500,
@@ -89,7 +93,7 @@ const messes = [
       },
     ],
     category: "nonveg-veg",
-    img:"https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/h/j/p7011-15967768575f2ce19979be7.jpg?tr=tr:n-large",
+    img: "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/h/j/p7011-15967768575f2ce19979be7.jpg?tr=tr:n-large",
     discription: "Best Mess 4 Chapati,Rice,Dal,Sweets,Curry,and Many More",
   },
 ];

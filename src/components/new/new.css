@@ -1,0 +1,71 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+  /* justify-content: space-between; */
+  background-color: #61dafb;
+  padding: 20px 30px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.product-item {
+  padding: 20px;
+  border: 1px solid black;
+  margin: 5px;
+  background-color: white;
+  padding: 2px;
+  height: 78vh;
+}
+.messHeader {
+  font-size: 2rem;
+  color: red;
+}
+.newbg {
+  background-color: #8860d0;
+}
+.proImg {
+  height: 15vh;
+  margin: 2px;
+}
+.cartContainer {
+  padding: 20px;
+  border: 1px solid black;
+  margin: 5px;
+  background-color: #f172a1;
+  padding: 2px;
+  height: 78vh;
+  color: aliceblue;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.subcartContainer {
+  border: 1px solid black;
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 10%;
+}
+.total {
+  background-color: #0677a1;
+  border: 2px solid black;
+  width: 30%;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+.headerHome {
+  background-color: #8860d0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+.headerCount {
+  background-color: rgb(24, 224, 10);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 3px;
+  padding: 4px;
+  font-weight: 400;
+}

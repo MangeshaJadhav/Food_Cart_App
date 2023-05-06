@@ -5,8 +5,9 @@ import "./Homescreen.css";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
 
-export default function Homescreen() {
+export default function Homescreen(handleAddProduct, productItems) {
   const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <div className="homeContainer">
       <Navbar />
@@ -26,28 +27,30 @@ export default function Homescreen() {
           messes.filter((mess))
         } */}
         <div className="row">
-
-          {
-           messes
-           .filter((mess) => {
-             if(searchTerm == ""){
-               return mess;
-             }else if(mess.name.toLowerCase().includes(searchTerm.toLowerCase())){
-               return mess;
-             }
-           })
-          .map((mess) => {
-            return (
-              <div className="col-md-4 p-3">
-                <div>
-                  <Mess mess={mess} />
+          {messes
+            .filter((mess) => {
+              if (searchTerm === "") {
+                return mess;
+              } else if (
+                mess.name.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return mess;
+              }
+            })
+            .map((mess) => {
+              return (
+                <div className="col-md-4 p-3" key={mess.id}>
+                  <div>
+                    <Mess
+                      mess={mess}
+                      handleAddProduct={handleAddProduct}
+                      productItems={productItems}
+                    />
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
-
-
       </div>
     </div>
   );

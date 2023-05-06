@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
   const navigate = useNavigate();
-  
 
   const HandleLogout = () => {
     localStorage.removeItem("jwt");
@@ -25,9 +25,7 @@ export default function Navbar() {
   console.log(JSON.parse(y));
   return (
     <div className="navbarColor">
-      <nav
-        className=" navbar navbarColor navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded"
-      >
+      <nav className=" navbar navbarColor navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
         <a className="navbar-brand" href="#">
           MessCart
         </a>
@@ -50,9 +48,9 @@ export default function Navbar() {
               </button>
             </li>
             <li className="nav-item">
-            <button className="logout ">
-                Cart
-              </button>
+              <Link to="/cart">
+                <button className="logout ">Cart</button>
+              </Link>
             </li>
 
             {/* <li className="nav-item dropdown">
