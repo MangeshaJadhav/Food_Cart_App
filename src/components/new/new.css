@@ -17,7 +17,7 @@
   margin: 5px;
   background-color: white;
   padding: 2px;
-  height: 78vh;
+  height: 70vh;
 }
 .messHeader {
   font-size: 2rem;
@@ -27,7 +27,7 @@
   background-color: #8860d0;
 }
 .proImg {
-  height: 15vh;
+  height: 35vh;
   margin: 2px;
 }
 .cartContainer {
@@ -36,7 +36,7 @@
   margin: 5px;
   background-color: #f172a1;
   padding: 2px;
-  height: 78vh;
+  height: 50vh;
   color: aliceblue;
   font-size: 20px;
   display: flex;
@@ -68,4 +68,8 @@
   margin-left: 3px;
   padding: 4px;
   font-weight: 400;
+}
+.prooImg {
+  height: 15vh;
+  margin: 2px;
 }

@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 const Login = ({ setLoginUser }) => {
   const navigate = useNavigate();
 
-  
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
   const [response, setResponse] = useState([]);
@@ -26,12 +25,12 @@ const Login = ({ setLoginUser }) => {
     const data = await resp.json();
     console.log(data);
     if (data.token) {
-        localStorage.setItem("jwt", data.token)
-        localStorage.setItem("user", JSON.stringify(data.user))
-        navigate('/home');
-        alert(resp.data.message);
+      localStorage.setItem("jwt", data.token);
+      localStorage.setItem("user", JSON.stringify(data.user));
+      navigate("/home");
+      alert(resp.data.message);
     }
-    
+
     setResponse(data);
     console.log(response.message === "Login Successful");
     console.log(JSON.stringify(response) === "Login Successful");
@@ -53,8 +52,7 @@ const Login = ({ setLoginUser }) => {
           onChange={(e) => setpassword(e.target.value)}
           placeholder="Enter your Password"
         ></input>
-        <div className="button" onClick={HandleLogin}
-        type="submit">
+        <div className="button" onClick={HandleLogin} type="submit">
           Login
         </div>
         <div>or</div>

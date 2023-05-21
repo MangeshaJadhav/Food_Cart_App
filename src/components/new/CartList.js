@@ -15,7 +15,7 @@ function CartList({ cart }) {
         {CART?.map((cartItem, cartindex) => {
           return (
             <div className="subcartContainer">
-              <img className="proImg" src={cartItem.url} alt="img" />
+              <img className="prooImg" src={cartItem.url} alt="img" />
               <span> {cartItem.name} </span>
               <button
                 className="btn"
